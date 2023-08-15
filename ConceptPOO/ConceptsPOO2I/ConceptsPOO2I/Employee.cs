@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConceptsPOO2I
 {
-    public abstract class Employee
+    public abstract class Employee : IPay
     {
 
         public int Id { get; set; }
